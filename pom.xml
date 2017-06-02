@@ -18,12 +18,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 
             <executions>
                 <execution>
-                    <id>RestAPI-positiveTestSuite</id>
+                    <id></id>
                     <configuration>
                         <projectFile>TAT-Calculations-soapui-project.xml</projectFile>
 
                         <outputFolder>target/surefire-reports</outputFolder>
-                        <testSuite>Positive cases</testSuite>
+                        <testSuite>CCS4-Verify Turn Around Time and Turnaround Time Minus On Hold remains same when Booking is Requested during weekday, Completed during weekday then Canceled during weekday of the same week</testSuite>
 
                         <junitReport>true</junitReport>
                         <exportwAll>true</exportwAll>
