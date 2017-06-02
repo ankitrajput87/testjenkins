@@ -12,7 +12,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 <build>
     <plugins>
         <plugin>
-            <groupId>com.smartbear.soapui</groupId>
+            <groupId>com.smartbear.readyapi</groupId>
             <artifactId>soapui-maven-plugin</artifactId>
             <version>5.0.0</version>
 
